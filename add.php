@@ -39,7 +39,6 @@
 		$name = $_POST['name'];
 		$quantity = $_POST['quantity'];
 		$price = $_POST['price'];
-		
 
 		// include database connection file
 		include_once("config.php");
