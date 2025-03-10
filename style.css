@@ -1,0 +1,81 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    align-items: center;
+}
+
+.top-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tabledata {
+    border-collapse: collapse;
+}
+
+.tabledata th, .tabledata td, .tabledata tr {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.datarow:hover {
+    background-color: whitesmoke;
+}
+
+.button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: lightskyblue;
+}
+
+.edit-button {
+    color: green;
+}
+
+.edit-button:hover {
+    color: greenyellow;
+}
+
+.delete-button {
+    color: red;
+}
+
+.delete-button:hover {
+    color: pink;
+}
+
+.submit-button {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 8px 28px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: whitesmoke;
+}
+
+.input-table tr td{
+    padding: 8px;
+}
+
+.input-form {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 6px;
+}
